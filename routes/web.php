@@ -24,3 +24,5 @@ Route::get('/home', 'MaterialsController@index');
 Route::resource('/materials', 'MaterialsController');
 Route::resource('/comentarios', 'ComentariosController');
 Route::resource('/users', 'UsersController');
+
+Route::get('/reportes/estadistico', 'ReportesController@index');

@@ -5,6 +5,8 @@
 <div class="panel-heading"><h3>Lista de Usuarios</h3></div>
 	<div class="panel-body">
 
+	<a href="{{ url('reportes/estadistico') }}">Reporte Estadistico</a>
+
 	<div class="table-responsive">
 	<table class="table table-bordered table-responsive table-striped">
 	    <thead>
